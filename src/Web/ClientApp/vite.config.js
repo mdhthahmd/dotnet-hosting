@@ -8,4 +8,15 @@ export default defineConfig({
     basicSsl(),
     vue(), 
   ],
+  server:
+  {
+    proxy: {
+      '/api': {
+           target: 'https://127.0.0.1:7243/',
+           changeOrigin: true,
+           secure: false,      
+           ws: true,
+       }
+  }
+}
 })
