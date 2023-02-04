@@ -18,10 +18,18 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-dotnettools.csharp",
-				"Vue.vscode-typescript-vue-plugin",
+				"vivaxy.vscode-conventional-commits",
+				"ms-azuretools.vscode-docker",
+				"bradlc.vscode-tailwindcss",
 				"Vue.volar",
-				"vivaxy.vscode-conventional-commits"
-			]
+				"Vue.vscode-typescript-vue-plugin",
+			],
+			"settings": {
+				"css.validate": false,
+				"editor.quickSuggestions": {
+					"strings": true
+				}
+			}
 		}
 	},
 
