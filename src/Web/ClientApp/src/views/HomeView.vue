@@ -46,58 +46,89 @@
                             <h1>
                                 <span class="block text-center text-lg font-semibold text-indigo-600">Introducing</span>
                                 <span
-                                    class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">JavaScript
-                                    for Beginners</span>
+                                    class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+                                    SPA Intergration with ASP Net Core
+                                </span>
                             </h1>
-                            <p class="mt-8 text-xl leading-8 text-gray-500">Aliquet nec orci mattis amet quisque
-                                ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                                id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-                                egestas fringilla sapien.</p>
+                            <p class="mt-8 text-xl leading-8 text-gray-500">
+                                Single-page applications (SPAs) have revolutionized the way we build and interact with
+                                web applications.
+                                They offer a seamless, dynamic, and responsive user experience by allowing the
+                                application to update
+                                content dynamically without reloading the page.
+                            </p>
                         </div>
                         <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
-                            <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget
-                                    risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-                                praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-                                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a
-                                    href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
+                            <p>Single-page applications (SPAs) are considered to be better than traditional web
+                                applications
+                                in certain cases because they offer several benefits, including:</p>
                             <ul role="list">
-                                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+                                <li>Faster loading times: SPAs only reload the necessary parts of the page, rather than
+                                    reloading the entire page, resulting in faster loading times and a smoother user
+                                    experience.
+                                </li>
+                                <li>Better user experience: SPAs offer a more seamless and responsive experience for
+                                    users, as they allow for dynamic updates and navigation without page reloads.
+                                </li>
+                                <li>Increased efficiency: SPAs reduce the amount of data transferred between the server
+                                    and the client, leading to improved performance and reduced server load.
+                                </li>
+                                <li>Easy development and maintenance: SPAs are easier to develop and maintain as they
+                                    only require a single HTML file and can be built using JavaScript frameworks like
+
+                                    <strong>Angular
+                                    </strong>,
+                                    <strong>React
+                                    </strong>, and
+                                    <strong>Vue
+                                    </strong>.
+                                </li>
                             </ul>
-                            <p>Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit
-                                viverra aliquam porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum
-                                ut nisl, justo, amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed
-                                elit interdum dignissim.</p>
-                            <h2>From beginner to expert in 30 days</h2>
-                            <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu
-                                ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh.
-                                Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus
-                                ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.
+                            <p>However, it's important to note that SPAs are <a href=".">not always the best</a> choice
+                                for every
+                                application. For example, if your application requires search engine optimization (SEO)
+                                or has a complex data architecture, traditional web applications might be a better
+                                option.</p>
+                            <h2>Tackling SEO</h2>
+                            <p>
+                                Search Engine Optimization (SEO) for Single-Page Applications (SPAs) can be challenging
+                                because SPAs rely on JavaScript to dynamically update content, which search engines have
+                                a harder time crawling and indexing.
                             </p>
                             <blockquote>
-                                <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed
-                                    consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
+                                <p>Use prerendering to generate static HTML versions of your SPA's pages, which can be
+                                    served to search engines and users with slow connections.
                                 </p>
                             </blockquote>
-                            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-                                viverra tellus varius sit neque erat velit.</p>
+                            <p>By following these best practices, you can help search engines understand and index the
+                                content of your SPA, leading to better visibility and increased traffic.</p>
                             <figure>
                                 <img class="w-full rounded-lg"
-                                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+                                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
                                     alt="" width="1310" height="873">
-                                <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+                                <figcaption>Breaking Barriers, Achieving Excellence: The Modern Software Engineer,
+                                    Working from Home</figcaption>
                             </figure>
                             <h2>Everything you need to get up and running</h2>
-                            <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius
-                                orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt
-                                sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui
-                                tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum
-                                convallis quam.</p>
-                            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-                                viverra tellus varius sit neque erat velit.</p>
+                            <p>
+                                Meta frameworks such
+                                <a href="https://nextjs.org/">nextjs</a>
+                                and
+                                <a href="https://nuxtjs.org/">nuxtjs</a>
+
+                                aim to simplify and optimize the process of building web applications,
+                                offering features such as server-side rendering (SSR) for improved performance and SEO,
+                                automatic code splitting for faster load times, and routing for handling navigation
+                                between pages.
+
+
+                            </p>
+                            <p>
+                                Additionally, such frameworks provide built-in tools for handling data fetching,
+                                optimization,
+                                and customization, making it easier for developers to build high-performance, scalable,
+                                and maintainable web applications.
+                            </p>
                         </div>
                     </div>
                 </div>
