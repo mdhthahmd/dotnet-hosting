@@ -8,9 +8,6 @@ const navigation = [
   { name: 'Weather', to: '/weather'},
 ]
 
-
-
-
 const user = {
 
 name: 'Tom Cook',
