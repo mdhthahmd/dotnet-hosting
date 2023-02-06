@@ -35,6 +35,7 @@ public class WeatherController : ControllerBase
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
     {
+         // await Task.Delay(Random.Shared.Next(500, 5000));
         return Enumerable.Range(1, 7).Select(index => new WeatherForecast
         {
             Id = index,
