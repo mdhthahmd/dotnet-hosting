@@ -44,7 +44,7 @@
                     <div class="relative px-6 lg:px-8">
                         <div class="mx-auto max-w-prose text-lg">
                             <h1>
-                                <span class="block text-center text-lg font-semibold text-indigo-600">Introducing</span>
+                                <span class="block text-center text-lg font-semibold text-red-600">Introducing</span>
                                 <span
                                     class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                                     SPA Intergration with ASP Net Core
@@ -58,7 +58,7 @@
                                 content dynamically without reloading the page.
                             </p>
                         </div>
-                        <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
+                        <div class="prose prose-lg prose-red mx-auto mt-6 text-gray-500">
                             <p>Single-page applications (SPAs) are considered to be better than traditional web
                                 applications
                                 in certain cases because they offer several benefits, including:</p>
