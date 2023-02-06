@@ -1,5 +1,6 @@
 # [Choice] .NET version: 6.0-bullseye, 3.1-bullseye, 6.0-focal, 3.1-focal
-ARG VARIANT=6.0-bullseye-slim
+ARG VARIANT=6.0-bullseye 
+# 6.0.405-bullseye-slim-amd64
 FROM mcr.microsoft.com/dotnet/sdk:${VARIANT}
 
 # Copy library scripts to execute

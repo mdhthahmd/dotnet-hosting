@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "env",
-        "vite"
+        "vite",
+        "deploy"
     ]
 }
