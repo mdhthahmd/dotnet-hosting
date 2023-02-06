@@ -1,5 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
+
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -9,7 +11,6 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseRouting();
 
 app.MapControllerRoute(
     name: "default",
@@ -17,7 +18,10 @@ app.MapControllerRoute(
 
 app.MapFallbackToFile("index.html");
 
+
 app.Run();
 
 // https://alexpotter.dev/net-6-with-vue-3/
 // https://github.com/dotnet/aspnetcore/tree/main/src/Middleware/Spa/SpaServices.Extensions/src
+// https://learn.microsoft.com/en-us/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0
+// https://github.com/vitejs/vite/discussions/7104

@@ -6,7 +6,7 @@ import WeatherForecast from '@/components/WeatherForecast.vue';
 
 let forecasts = ref(null)
 
-await axios.get("https://localhost:5175/api/weather")
+await axios.get("https://localhost:5001/api/weather", { headers: { "Access-Control-Allow-Origin" : "*"} })
     .then(response => {
         forecasts.value = response.data
     });
