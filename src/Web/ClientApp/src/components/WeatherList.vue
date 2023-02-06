@@ -6,11 +6,10 @@ import WeatherForecast from '@/components/WeatherForecast.vue';
 
 let forecasts = ref(null)
 
-await axios.get("https://localhost:5001/api/weather", { headers: { "Access-Control-Allow-Origin" : "*"} })
-    .then(response => {
-        forecasts.value = response.data
-    });
-
+await axios
+    .get("api/weather")
+    .then(response => forecasts.value = response.data);
+    
 </script>
 
 <template>
@@ -18,4 +17,3 @@ await axios.get("https://localhost:5001/api/weather", { headers: { "Access-Contr
         <WeatherForecast v-for="forecast in forecasts" :key="forecast.id" :forecast="forecast" />
     </ol>
 </template>
-
