@@ -17,7 +17,7 @@ export default defineConfig({
     strictPort: true,
     https: generateCerts(),
     proxy: {
-      "/api": {
+      "/api/": {
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, "/api"),
