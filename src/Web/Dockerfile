@@ -13,7 +13,9 @@ COPY . ./
 RUN dotnet publish -c Release -o artifacts
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0.13-bullseye-slim-amd64
+LABEL org.opencontainers.image.source https://github.com/mdhthahmd/dotnet-hosting
 WORKDIR /app
 COPY --from=build /app/artifacts .
+
 
 ENTRYPOINT ["dotnet", "Web.dll"]
