@@ -6,6 +6,7 @@ import { defineConfig } from "vite";
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
+  base: '/dotnet-hosting',
   plugins: [vue()],
   resolve: {
     alias: {
@@ -13,14 +14,13 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000,
     strictPort: true,
     https: generateCerts(),
     proxy: {
-      "/api/": {
+      "/dotnet-hosting/api/": {
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/api/, "/api"),
+        rewrite: (path) => path.replace(/^\/dotnet-hosting/, ''),
         target: process.env.ASPNETCORE_HTTPS_PORT
           ? `https://localhost:${process.env.ASPNETCORE_HTTPS_PORT}`
           : process.env.ASPNETCORE_URLS
