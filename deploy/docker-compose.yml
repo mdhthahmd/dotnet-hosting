@@ -30,12 +30,12 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
   webspa:
-    image: ghcr.io/mdhthahmd/dotnet-hosting:0.0.2
+    image: ghcr.io/mdhthahmd/dotnet-hosting:1.0.0
     container_name: web-spa
     networks:
       - proxy
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.webspa.entrypoints=web"
-      - "traefik.http.routers.webspa.rule=Host(`app.localhost`)"
+      - "traefik.http.routers.webspa.rule=Host(`app.localhost`) && PathPrefix(`/dotnet-hosting`) "
       - "traefik.http.services.webspa.loadbalancer.server.port=80"
