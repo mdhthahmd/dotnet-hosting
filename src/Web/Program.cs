@@ -27,10 +27,15 @@ if(!app.Environment.IsDevelopment())
     });
 
     app.UsePathBase("/dotnet-hosting");
-    app.UseRouting();   
+
 }
 
-app.MapControllers();
+app.UseRouting();
+
+app.UseEndpoints(endpoints => {
+    endpoints.MapControllers();
+    endpoints.MapFallbackToFile("index.html");
+});
 
 app.Run();
 
